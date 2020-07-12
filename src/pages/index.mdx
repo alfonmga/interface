@@ -3,9 +3,7 @@ import { Seo } from '@components/seo';
 
 <PublicLayout>
 
-<Seo
-  title="Homepage"
-/>
+<Seo title="Homepage" />
 
 <Flex
   direction={["column", "column", "column", "row"]}
@@ -17,17 +15,11 @@ import { Seo } from '@components/seo';
 
 <Box
   width="600px"
-  display={["none", "none", "none", "block"]}
+  display={['none', 'none', 'none', 'block']}
   rounded="lg"
   overflow="hidden"
   backgroundColor="black"
->
-<Image
-  src="logo.png"
-  alt="Neon Law"
-  aspectRatio={1}
-/>
-</Box>
+></Box>
 
 <Box padding="2em">
 
@@ -36,45 +28,30 @@ import { Seo } from '@components/seo';
 Our goal is singular - your upward mobility. Join the thousands of people who
 have entrusted us with providing legal solutions to make their lives better.
 
-<Button variantColor="teal">
-  Schedule a Free Consultation Now
-</Button>
+<Button variantColor="teal">Schedule a Free Consultation Now</Button>
 
 ---
 
 ### We can help with:
 
 <Grid templateColumns="repeat(5, 1fr)" gap={6}>
-  <Box w="100%" onClick={() => { window.alert('show personal injury')}}>
+  <Box
+    w="100%"
+    onClick={() => {
+      window.alert('show personal injury');
+    }}
+  >
     I've been injured.
   </Box>
-  <Box w="100%">
-    I have immigration issues.
-  </Box>
-  <Box w="100%">
-    I'm in a lot of debt.
-  </Box>
-  <Box w="100%">
-    I can't afford a lawyer.
-  </Box>
-  <Box w="100%">
-    I'm starting a business.
-  </Box>
-  <Box w="100%">
-    I've been hacked.
-  </Box>
-  <Box w="100%">
-    My partner and I want a divorce.
-  </Box>
-  <Box w="100%">
-    What if I'm not here tomorrow?
-  </Box>
-  <Box w="100%">
-    My rights have been violated.
-  </Box>
-  <Box w="100%">
-    I want to buy a home.
-  </Box>
+  <Box w="100%">I have immigration issues.</Box>
+  <Box w="100%">I'm in a lot of debt.</Box>
+  <Box w="100%">I can't afford a lawyer.</Box>
+  <Box w="100%">I'm starting a business.</Box>
+  <Box w="100%">I've been hacked.</Box>
+  <Box w="100%">My partner and I want a divorce.</Box>
+  <Box w="100%">What if I'm not here tomorrow?</Box>
+  <Box w="100%">My rights have been violated.</Box>
+  <Box w="100%">I want to buy a home.</Box>
 </Grid>
 
 ---
@@ -89,18 +66,21 @@ We only represent good people.
 
 We do not represent shady people and have fired clients after discovering
 they're racist, transphobic, sexist, or otherwise bad people.
+
   </Box>
   <Box w="100%">
 We only represent good causes
 
 We do not represent fossil fuel companies, predatory landlords or
 creditors, or companies that maliciously use your personal data.
+
   </Box>
   <Box w="100%">
 We use technology to make legal services affordable
 
 We leverage document automation, natural language processing, and our own
 open-source software to deliver cost-effective legal services.
+
   </Box>
 </Grid>
 
@@ -120,9 +100,7 @@ us for a free consultation.
 
 ## Ready to Get Started?
 
-<Button variantColor="teal">
-  Schedule a Free Consultation Now
-</Button>
+<Button variantColor="teal">Schedule a Free Consultation Now</Button>
 
 </Box>
 </Flex>

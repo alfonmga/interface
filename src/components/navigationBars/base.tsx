@@ -64,7 +64,7 @@ export const BaseNavigationBar = ({
         height="4em"
       >
         <Container>
-          <Flex size="100%" px="6" align="center">
+          <Flex size="100%" align="center">
             <Box
               mr={5}
               as={Link}

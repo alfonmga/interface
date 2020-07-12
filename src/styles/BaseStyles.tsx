@@ -1,6 +1,7 @@
 import { Global, css } from '@emotion/core';
 
 import React from 'react';
+import { theme } from '@chakra-ui/core';
 
 const BaseStyles = () => (
   <Global
@@ -15,24 +16,8 @@ const BaseStyles = () => (
         --grid-max-width: 1240px;
       }
 
-      @font-face {
-        font-family: 'Aestetico';
-        src: url('/fonts/Aestetico-Regular.woff2') format('woff2');
-        font-display: swap;
-        font-style: normal;
-        font-weight: 400;
-      }
-
-      @font-face {
-        font-family: 'Aestetico';
-        src: url('/fonts/Aestetico-Bold.woff2') format('woff2');
-        font-display: swap;
-        font-style: normal;
-        font-weight: 700;
-      }
-
       body {
-        font-family: 'Aestetico', sans-serif;
+        font-size: ${theme.fontSizes.md};
       }
 
       /* ---------------------------------- */
